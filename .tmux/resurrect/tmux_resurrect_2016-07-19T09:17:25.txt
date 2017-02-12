@@ -1,7 +1,0 @@
-pane	FBX	0	:root	0	: 	0	:/home/demonic/gitProject/buildFBX	1	bash	:
-pane	FBX	1	:Kernel	1	:*	0	:/home/demonic/gitProject/buildFBX/src/Kernel	1	bash	:
-pane	FBX	2	:bin	0	:-	0	:/home/demonic/gitProject/buildFBX	1	bash	:
-window	FBX	0	0	: 	c5fd,107x27,0,0,0
-window	FBX	1	1	:*	c5fe,107x27,0,0,1
-window	FBX	2	0	:-	c5ff,107x27,0,0,2
-state	FBX	
