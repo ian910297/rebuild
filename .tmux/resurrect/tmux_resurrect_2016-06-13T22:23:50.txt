@@ -1,0 +1,60 @@
+pane	HSA_DE	0	:root	1	:*	0	:/home/demonic/gitProject/TF-IDFGenerator	1	bash	:
+pane	HSA_DE	1	:kernel	0	:	0	:/home/demonic/gitProject/TF-IDFGenerator/src/kernel	1	bash	:
+pane	HSA_DE	2	:training	0	:-	0	:/home/demonic/gitProject/TF-IDFGenerator/src/training	1	bash	:
+pane	HSA_DE	3	:testing	0	:	0	:/home/demonic/gitProject/TF-IDFGenerator/src/testing	1	bash	:
+pane	compiler	0	:compiler	1	:*	0	:/home/demonic/gitProject/compiler_hw	1	bash	:
+pane	compiler	1	:code	0	:-	0	:/home/demonic/gitProject/compiler_hw/mips	1	vim	:vim Rose.g4
+pane	compiler	2	:test	0	:	0	:/home/demonic/gitProject/compiler_hw/mips/test	1	vim	:vim assign
+pane	compiler	3	:c_sample	0	:	0	:/home/demonic/gitProject/grammars-v4/c	1	vim	:vim C.g4
+pane	compiler	4	:sample	0	:	0	:/home/demonic/gitProject/compiler_hw/hw5	1	vim	:vim hw5.g4
+pane	fbxsdk	0	:exec	0	:	0	:/home/demonic/fbxsdk/bin/x64/release/ViewScene	1	bash	:
+pane	fbxsdk	1	:sample	0	:-	0	:/home/demonic/fbxsdk/samples/ViewScene	1	bash	:
+pane	fbxsdk	2	:ragi	1	:*	0	:/home/demonic/fbxsdk/samples/ragi	1	bash	:
+pane	fbxsdk	3	:sample5	0	:	0	:/home/demonic/fbxsdk/samples/ExportScene01	1	bash	:
+pane	hashing	0	:bash	0	:-	0	:/home/demonic/program/hashing	1	bash	:
+pane	hashing	1	:code	1	:*	0	:/home/demonic/program/hashing	1	vim	:vim main.c
+pane	menu	0	:menu	0	:-	0	:/home/demonic/gitProject/menu	1	bash	:
+pane	menu	1	:blade	0	:	0	:/home/demonic/gitProject/menu/resources/views/accountManager	1	bash	:
+pane	menu	2	:js	0	:	0	:/home/demonic/gitProject/menu/public/assets/js/user	1	bash	:
+pane	menu	3	:route	0	:	0	:/home/demonic/gitProject/menu/app/Http/Controllers	1	bash	:
+pane	menu	4	:server	1	:*	0	:/home/demonic/gitProject/menu	1	bash	:
+pane	pingtong	0	:bash	0	:	0	:/home/demonic/PingTong/0x001b	1	bash	:
+pane	pingtong	1	:bash	0	:-	0	:/home/demonic/PingTong/0x001d/release	1	bash	:
+pane	pingtong	2	:yacc	1	:*	0	:/home/demonic/PingTong/0x001b	1	bash	:
+pane	pinocchio	0	:main	1	:*	0	:/home/demonic/gitProject/Pinocchio/DemoUI	1	bash	:
+pane	pinocchio	1	:pin_mesh	0	:-	0	:/home/demonic/gitProject/Pinocchio/Pinocchio	1	vim	:vim refinement.cpp
+pane	pinocchio	1	:pin_mesh	0	:-	1	:/home/demonic/gitProject/Pinocchio/Pinocchio	0	vim	:vim discretization.cpp
+pane	pinocchio	2	:demoui	0	:	0	:/home/demonic/gitProject/Pinocchio/DemoUI	1	vim	:vim processor.cpp
+pane	pinocchio	3	:discratization	0	:	0	:/home/demonic/gitProject/Pinocchio/Pinocchio	1	vim	:vim discretization.cpp
+pane	pinocchio	4	:obj	0	:	0	:/home/demonic/gitProject/Pinocchio/DemoUI/objs	1	vim	:vim human.obj
+pane	pinocchio	5	:output	0	:	0	:/home/demonic/gitProject/Pinocchio/DemoUI	1	vim	:vim processor.cpp
+window	HSA_DE	0	1	:*	b249,103x28,0,0,102
+window	HSA_DE	1	0	:	324f,103x28,0,0,117
+window	HSA_DE	2	0	:-	3250,103x28,0,0,118
+window	HSA_DE	3	0	:	3251,103x28,0,0,119
+window	compiler	0	1	:*	6434,103x28,0,0,34
+window	compiler	1	0	:-	3248,103x28,0,0,110
+window	compiler	2	0	:	324a,103x28,0,0,112
+window	compiler	3	0	:	324c,103x28,0,0,114
+window	compiler	4	0	:	324d,103x28,0,0,115
+window	fbxsdk	0	0	:	6433,103x28,0,0,52
+window	fbxsdk	1	0	:-	6433,103x28,0,0,14
+window	fbxsdk	2	1	:*	6432,103x28,0,0,51
+window	fbxsdk	3	0	:	6438,103x28,0,0,76
+window	hashing	0	0	:-	643a,103x28,0,0,59
+window	hashing	1	1	:*	e431,103x28,0,0,60
+window	menu	0	0	:-	c7fe,103x28,0,0,1
+window	menu	1	0	:	c7ff,103x28,0,0,2
+window	menu	2	0	:	c800,103x28,0,0,3
+window	menu	3	0	:	c801,103x28,0,0,4
+window	menu	4	1	:*	c802,103x28,0,0,5
+window	pingtong	0	0	:	e438,103x28,0,0,48
+window	pingtong	1	0	:-	e439,103x28,0,0,49
+window	pingtong	2	1	:*	6435,103x28,0,0,54
+window	pinocchio	0	1	:*	e439,103x28,0,0,68
+window	pinocchio	1	0	:-	bb81,103x28,0,0{51x28,0,0,69,51x28,52,0,87}
+window	pinocchio	2	0	:	6432,103x28,0,0,70
+window	pinocchio	3	0	:	e43a,103x28,0,0,88
+window	pinocchio	4	0	:	e43b,103x28,0,0,89
+window	pinocchio	5	0	:	6434,103x28,0,0,91
+state	HSA_DE	

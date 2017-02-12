@@ -1,0 +1,13 @@
+pane	2	0	:bash	1	:*	0	:/home/demonic/gitProject/buildFBX/src/Kernel	1	bash	:
+pane	Pinocchio 	0	:root	0	: 	0	:/home/demonic/gitProject/Pinocchio	1	bash	:
+pane	Pinocchio 	1	:vim	0	: 	0	:/home/demonic/gitProject/Pinocchio/DemoUI	1	vim	:vim processor.cpp
+pane	Pinocchio 	2	:pinocchio	1	:*	0	:/home/demonic/gitProject/Pinocchio/Pinocchio	1	vim	:vim pinocchioApi.cpp
+pane	Pinocchio 	3	:grep	0	: 	0	:/home/demonic/gitProject/Pinocchio/Pinocchio	1	bash	:
+pane	Pinocchio 	4	:tracer	0	:-	0	:/home/demonic/gitProject/Pinocchio/Pinocchio	1	vim	:vim discretization.cpp
+window	2	0	1	:*	c606,107x27,0,0,9
+window	Pinocchio 	0	0	: 	c604,107x27,0,0,7
+window	Pinocchio 	1	0	: 	6334,107x27,0,0,15
+window	Pinocchio 	2	1	:*	632f,107x27,0,0,10
+window	Pinocchio 	3	0	: 	6331,107x27,0,0,12
+window	Pinocchio 	4	0	:-	6333,107x27,0,0,14
+state	Pinocchio 	2

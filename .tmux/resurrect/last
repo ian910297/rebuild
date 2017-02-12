@@ -1,0 +1,13 @@
+pane	FBX	0	:root	0	: 	0	:/home/demonic/gitProject/buildFBX	1	bash	:
+pane	FBX	1	:Kernel	1	:*	0	:/home/demonic/gitProject/buildFBX/src/Kernel	1	bash	:
+pane	FBX	2	:bin	0	:-	0	:/home/demonic/gitProject/buildFBX	1	bash	:
+pane	Pinocchio	0	:root	0	:-	0	:/home/demonic/gitProject/Pinocchio	1	bash	:
+pane	Pinocchio	1	:DemoUI	1	:*	0	:/home/demonic/gitProject/Pinocchio/DemoUI	1	bash	:
+pane	Pinocchio	2	:Pinocchio	0	: 	0	:/home/demonic/gitProject/Pinocchio/Pinocchio	1	bash	:
+window	FBX	0	0	: 	c5fd,107x27,0,0,0
+window	FBX	1	1	:*	c5fe,107x27,0,0,1
+window	FBX	2	0	:-	c5ff,107x27,0,0,2
+window	Pinocchio	0	0	:-	c600,107x27,0,0,3
+window	Pinocchio	1	1	:*	c601,107x27,0,0,4
+window	Pinocchio	2	0	: 	c602,107x27,0,0,5
+state	Pinocchio	
