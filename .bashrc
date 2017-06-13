@@ -56,13 +56,15 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# show git branch to avoid mistake
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-
+  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
-  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;33m\]@\h\[\033[00m\][\@]\w> '
-#    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;33m\]@\h\[\033[00m\][\@]\w$(parse_git_branch)> '
 fi
 unset color_prompt force_color_prompt
 
@@ -119,8 +121,15 @@ fi
 #zh_TW.UTF-8
 export LC_ALL=zh_TW.UTF-8
 
-export PATH="$PATH:$HOME/.composer/vendor/bin"
+alias rm="trash"
+alias cls="clear"
+# alias laravel="~/.composer/vendor/bin/laravel"
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export PATH="$PATH:/opt/genymotion/"
+export PATH="$PATH:$HOME/node_modules/gulp/bin"
 
+export NVM_DIR="/home/demonic/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export TERM=xterm-256color
 
 # gulp completion
@@ -135,4 +144,20 @@ function _gulp_completions() {
 
 complete -o default -F _gulp_completions gulp
 
+
+# antlr
+export CLASSPATH=".:/usr/local/lib/antlr-4.5.2-complete.jar:$CLASSPATH"
+alias antlr4='java -jar /usr/local/lib/antlr-4.5.2-complete.jar'
+alias grun='java org.antlr.v4.gui.TestRig'
+
+# php serve
+alias phpServe="php -S 0.0.0.0:8000 -t ."
+
+# Go Get
+export GOPATH="/home/demonic/goProject"
+
+# nvm
+# node version control
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
