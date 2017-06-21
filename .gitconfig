@@ -1,0 +1,16 @@
+[user]
+	email = ian910297@gmail.com
+	name = demonic
+[push]
+	default = matching
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	st = status
+[apply]
+	whitespace = nowarn
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=300
