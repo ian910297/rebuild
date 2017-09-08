@@ -119,21 +119,9 @@ if ! shopt -oq posix; then
 fi
 
 #zh_TW.UTF-8
-export LC_ALL=zh_TW.UTF-8
+#export LC_ALL=zh_TW.UTF-8
 
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
-export PATH="$PATH:$HOME/node_modules/gulp/bin"
 
 export TERM=xterm-256color
 
-# gulp completion
-function _gulp_completions() {
-  # The currently-being-completed word.
-  local cur="${COMP_WORDS[COMP_CWORD]}"
-  #Grab tasks
-  local compls=$(gulp --tasks-simple)
-  # Tell complete what stuff to show.
-  COMPREPLY=($(compgen -W "$compls" -- "$cur"))
-}
-
-complete -o default -F _gulp_completions gulp
