@@ -125,3 +125,5 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 export TERM=xterm-256color
 
+# Enable yarn nightly global binaries
+export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
