@@ -1,0 +1,10 @@
+CursorType=Block
+CursorBlinks=yes
+CursorColour=220,50,47
+SuppressOSC=112
+Term=xterm-256color
+FontHeight=16
+BoldAsColour=no
+Locale=C
+Charset=UTF-8
+
