@@ -1,0 +1,21 @@
+{
+    "http.proxyStrictSSL": false,
+    "http.proxy": "http://cache1:3128",
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+    //"terminal.integrated.shell.windows": "C:\\cygwin\\bin\\bash.exe",
+    // // "terminal.integrated.shell.windows": "D:\\workspace\\cmder\\cmder.exe",
+    // "terminal.integrated.shell.windows": "cmd.exe",
+    // "terminal.integrated.env.windows": {
+    //     "CMDER_ROOT": "D:\\workspace\\cmder"
+    // },
+    // "terminal.integrated.shellArgs.windows": [
+    //     "/k D:\\workspace\\cmder\\vendor\\init.bat"
+    // ],
+    "terminal.integrated.shell.windows": "D:\\Cygwin-2.5.2\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+        "-i"
+    ],
+    "window.zoomLevel": 1,
+    "terminal.integrated.automationShell.linux": ""
+}
